@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Regenerable via `python scripts/generate_anchored_dataset.py` (deterministic,
+# fixed seed) -- not committed to keep the repo lean.
+data/orders.csv
+data/anchor_reconciliation.csv
